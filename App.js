@@ -7,7 +7,7 @@ const pb = new PocketBase('https://ecommerce.choniki.tk');
 
 export default function App() {
 
-  getProducts()
+  // getProducts()
 
   async function getProducts() {
     const records = await pb.collection('products').getFullList(200 /* batch size */, {
